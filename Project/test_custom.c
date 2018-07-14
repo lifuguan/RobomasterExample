@@ -55,9 +55,7 @@ void moto_control(void)
 	//			if(key1 ==1)
 	//		{
 	//			 set_test_motor_current(test_moto_current);
-	//			}
-			
-			
+	//			}		
 }
 //电机初始化参数设定
 void test_moto_init(void)

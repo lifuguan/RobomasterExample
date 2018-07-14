@@ -41,8 +41,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\Desktop\summer_camp\summer_camp\Inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\hal_inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\m3_inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\os_inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\hal_inc\Legacy;..\..\..\..\Desktop\summer_camp\summer_camp\User;..\..\..\..\Desktop\summer_camp\summer_camp\User\algorithm;..\..\..\..\Desktop\summer_camp\summer_camp\User\app;..\..\..\..\Desktop\summer_camp\summer_camp\User\driver;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>flash_layout;USE_HAL_DRIVER;STM32F427xx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\Desktop\summer_camp\summer_camp\Inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\hal_inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\m3_inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\os_inc;..\..\..\..\Desktop\summer_camp\summer_camp\Inc\hal_inc\Legacy;..\..\..\..\Desktop\summer_camp\summer_camp\User;..\..\..\..\Desktop\summer_camp\summer_camp\User\algorithm;..\..\..\..\Desktop\summer_camp\summer_camp\User\app;..\..\..\..\Desktop\summer_camp\summer_camp\User\driver;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/FreeRTOS/Source/CMSIS_RTOS;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/LwIP/src/include;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/LwIP/src/include/lwip;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/LwIP/system;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/LwIP/test/fuzz;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/samples/HTTP_Netconn_STM32F4X;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F0xxxx/CMSIS_HAL/Include;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/CMSIS_HAL/Device/ST/STM32F4xx/Include;C:/Users/10027/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc;../../../../Desktop/Robomaster/RoboRTS-Firmware-master/MDK-ARM/rmlib;../User;../User/app;../User/driver;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>flash_layout;USE_HAL_DRIVER;STM32F427xx;DEBUG=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
@@ -52,6 +52,7 @@
       <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
       <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
