@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{b65e2155-6ccf-47fe-8f7f-9ed08d1b20a5}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{2b3efd5e-6783-4428-8076-5aa5b6851292}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{d72df5c0-407c-4dbb-a117-aab3d29f6474}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\user_driver">
+      <UniqueIdentifier>{da69fe15-cb00-4bce-8af2-75f90814e5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\user_algorithm">
+      <UniqueIdentifier>{18bf594a-8870-4f12-baa4-4a43e6c23dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\user_app">
+      <UniqueIdentifier>{6e5dec56-1c85-4b78-9ac2-91ea7f398d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\user_custom">
+      <UniqueIdentifier>{e3991583-7b2c-4185-b243-4dbc1443acca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lib_rm">
+      <UniqueIdentifier>{9820c0e2-e837-4299-b3b0-0202b8d552df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\user_doc">
+      <UniqueIdentifier>{2601906a-3138-406e-8c6e-05344f082207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{a0823a4b-6075-4c5f-9675-44dbf89064bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\user_driver">
+      <UniqueIdentifier>{26effacb-8bc2-4463-9021-bb6ecea7a49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\user_algorithm">
+      <UniqueIdentifier>{3a009e0f-7e6a-4dbe-8873-4b29bfd2f46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\user_app">
+      <UniqueIdentifier>{26388369-ba25-40f6-a763-009cfce8b4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\user_custom">
+      <UniqueIdentifier>{a52813fc-3bdb-43aa-81bb-e6dde3f89ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lib_rm">
+      <UniqueIdentifier>{20f875f0-3563-40dc-9c16-7f11dc15eaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\user_doc">
+      <UniqueIdentifier>{cbd5d22c-56cf-4cd8-87ff-7e8f898e41de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{42c4513e-2056-4cd3-9497-1e2f621e4f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{dffaca99-c0af-47c8-a8cb-434e34861a22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\driver\can_device.c">
+      <Filter>Source files\user_driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\driver\uart_device.c">
+      <Filter>Source files\user_driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\driver\calibrate.c">
+      <Filter>Source files\user_driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\driver\keyboard.c">
+      <Filter>Source files\user_driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\algorithm\pid.c">
+      <Filter>Source files\user_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\algorithm\ramp.c">
+      <Filter>Source files\user_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\startup.c">
+      <Filter>Source files\user_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\gimbal_task.c">
+      <Filter>Source files\user_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\chassis_task.c">
+      <Filter>Source files\user_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\detect_task.c">
+      <Filter>Source files\user_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\execute_task.c">
+      <Filter>Source files\user_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\chassis_custom.c">
+      <Filter>Source files\user_custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\gimbal_custom.c">
+      <Filter>Source files\user_custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\app\shoot_custom.c">
+      <Filter>Source files\user_custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\Project\test_custom.c">
+      <Filter>Source files\user_custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\summer_camp\summer_camp\Inc\stm32f4xx_it.c">
+      <Filter>Source files\lib_rm</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\Desktop\summer_camp\summer_camp\Inc\rm_infantry1_3.lib">
+      <Filter>Source files\lib_rm</Filter>
+    </None>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32F4xxxx\StartupFiles\startup_stm32f427xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\rm_hal_lib.h">
+      <Filter>Header files\user_driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\summer_camp\summer_camp\User\sys.h">
+      <Filter>Header files\user_custom</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\Desktop\summer_camp\summer_camp\Doc\readme.txt">
+      <Filter>Header files\user_doc</Filter>
+    </None>
+    <None Include="RobomasterExample-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="RobomasterExample-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

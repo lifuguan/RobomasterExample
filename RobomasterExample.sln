@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RobomasterExample", "RobomasterExample\RobomasterExample.vcxproj", "{755E01BD-AAD7-46DB-B5EF-2911DDA6B89F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{755E01BD-AAD7-46DB-B5EF-2911DDA6B89F}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{755E01BD-AAD7-46DB-B5EF-2911DDA6B89F}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{755E01BD-AAD7-46DB-B5EF-2911DDA6B89F}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{755E01BD-AAD7-46DB-B5EF-2911DDA6B89F}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5580938-CE30-489D-B4DD-153462B97CE8}
+	EndGlobalSection
+EndGlobal
